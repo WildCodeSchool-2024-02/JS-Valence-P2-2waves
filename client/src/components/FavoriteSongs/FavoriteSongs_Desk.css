@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.myfavorite {
+  background-color: #353535;
+  width: 200px;
+  height: 200px;
+  border-radius: 18px;
+  color: #fff;
+  padding: 15px;
+  font-family: "Work Sans", sans-serif;
+  margin-top: 15px;
+}
+.divadd{
+display: flex;
+margin-top: 25%;
+justify-content: center;
+align-content: center;
+}
+.add{
+    color: #A43AA5;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+.centerAdd{
+    position: absolute;
+    left: 40%;
+    bottom : 30%;
+    background-color: #353535;
+    border-radius: 8px;
+    padding: 15px;
+    width: 30vw;
+    color: white;
+    font-family: "Work Sans", sans-serif;
+}
+
+.addInput{
+    border-radius: 8px;
+    border: none;
+    width: 90%;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+}
