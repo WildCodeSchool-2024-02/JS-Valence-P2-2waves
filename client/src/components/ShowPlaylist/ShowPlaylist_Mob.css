@@ -1,0 +1,31 @@
+.Container-Playlist {
+  display: flex;
+  flex-direction: column;
+}
+
+.Container-Icone-Title,
+.Container-Title-Music-Artist {
+  padding-top: 40px;
+  padding: 40px 40px 0px 0px;
+  gap: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+}
+
+.Icone {
+  color: #a43aa5;
+  height: 15px;
+  width: 15px;
+}
+
+.Title-Slow-Music {
+  color: #a43aa5;
+  font-size: 12px;
+}
+
+.Title-Music-Artist {
+  color: #a43aa5;
+  font-size: 8px;
+}
