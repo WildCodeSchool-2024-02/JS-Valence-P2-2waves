@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.SearchBar {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 30px;
+  height: 50px;
+  width: 500px;
+  border-radius: 10px;
+  background-color: #535353;
+  color: #a43aa5;
+}
+
+.Logo {
+  height: 140px;
+  width: 140px;
+}
+
+.Profil {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+}
