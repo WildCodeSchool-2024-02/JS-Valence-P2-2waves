@@ -1,6 +1,5 @@
 .sidebar {
-  margin-left: 20px; /* Keep the margin */
-  height: 100vh;
-  width: 200px; /* Keep the width */
-  flex: 0 0 200px; /* Add flex properties */
+  margin-left: 20px;
+  height: 100%;
+  width: 200px;
 }

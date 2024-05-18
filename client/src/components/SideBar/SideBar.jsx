@@ -14,10 +14,10 @@ function SideBar() {
 
   return (
     <div className="sidebar">
-      <RandomAlbum />
+      <RandomAlbum />      
+      <FavoriteSongs />
       <MyLibrary handleShow={handleShow} />
       {showPopup ? <PopUpAdd handleShow={handleShow} /> : null}
-      <FavoriteSongs />
     </div>
   );
 }

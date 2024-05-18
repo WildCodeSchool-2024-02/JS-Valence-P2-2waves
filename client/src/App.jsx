@@ -1,14 +1,13 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import Login from "./components/Login/Login";
-import HomePage from "./components/HomePage/HomePage";
-import { getTokenFromUrl } from "./Spotify";
+import { HomePage, Login, getTokenFromUrl } from "./components/index";
 
 function App() {
   const [token, setToken] = useState(null);
 
   useEffect(() => {
     const hash = getTokenFromUrl();
+
     window.location.hash = "";
 
     if (hash.access_token) {
@@ -17,7 +16,9 @@ function App() {
     }
   }, []);
 
-  return <div className="App">{token ? <HomePage /> : <Login />}</div>;
+  return (
+    <div className="App">{token ? <HomePage token={token} /> : <Login />}</div>
+  );
 }
 
 export default App;
