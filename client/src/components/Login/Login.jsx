@@ -1,11 +1,11 @@
-import "./Login.css";
-import Logo from "../../assets/images/svg/logo.svg";
-import { loginUrl } from "../../Spotify";
+import classes from "./Login.module.css";
+import { logo } from "../../assets/images/index";
+import { loginUrl } from "../../services/Spotify/auth";
 
 function Login() {
   return (
-    <div className="login">
-      <img src={Logo} alt="Spotify logo" />
+    <div className={classes.login}>
+      <img src={logo} alt="Spotify logo" />
       <a href={loginUrl}>LOGIN WITH 2WAVES</a>
     </div>
   );
