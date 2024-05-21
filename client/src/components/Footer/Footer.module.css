@@ -1,0 +1,11 @@
+.container {
+  width: auto;
+  height: 55px;
+  background-color: #353535;
+  margin-left: 10px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+h1 {
+  width: 100px;
+}
